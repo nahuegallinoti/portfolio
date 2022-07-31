@@ -20,12 +20,11 @@ export const projects = [
     id: 1,
   },
   {
-    title: "Unichat",
-    description:
-      "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+    title: "Portfolio",
+    description: "Personal portfolio website",
     image: "/images/4.jpg",
-    tags: ["React", "ChatEngine", "Firebase"],
-    source: "https://google.com",
+    tags: ["Next.js"],
+    source: "https://github.com/nahuegallinoti/portfolio",
     visit: "https://google.com",
     id: 3,
   },
