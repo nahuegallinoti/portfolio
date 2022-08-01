@@ -34,7 +34,7 @@ export const projects = [
     image: "/images/4.jpg",
     tags: ["Next.js"],
     source: "https://github.com/nahuegallinoti/portfolio",
-    visit: "https://google.com",
+    visit: "https://portfolio-nahuel.herokuapp.com/",
     id: 3,
   },
 ];
