@@ -20,6 +20,15 @@ export const projects = [
     id: 1,
   },
   {
+    title: "ChatApp",
+    description: "Chat app",
+    image: "/images/4.jpg",
+    tags: ["React", "Socket.io", "Node.js"],
+    source: "https://github.com/nahuegallinoti/chatApp",
+    visit: "https://react-socketio-express-chat.herokuapp.com/",
+    id: 2,
+  },
+  {
     title: "Portfolio",
     description: "Personal portfolio website",
     image: "/images/4.jpg",

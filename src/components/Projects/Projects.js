@@ -42,8 +42,8 @@ function Projects() {
               ))}
             </TagList>
             <UtilityList>
-              <ExternalLinks href={visit}>Code</ExternalLinks>
-              <ExternalLinks href={source}>Source</ExternalLinks>
+              <ExternalLinks href={visit}>Live</ExternalLinks>
+              <ExternalLinks href={source}>Code</ExternalLinks>
             </UtilityList>
           </BlogCard>
         ))}
