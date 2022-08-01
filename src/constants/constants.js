@@ -16,8 +16,18 @@ export const projects = [
     image: "/images/2.png",
     tags: ["Angular 11", "Angular Material", "Firebase"],
     source: "https://github.com/nahuegallinoti/reservas-app",
-    visit: "https://google.com",
+    visit: "https://tesis-a16ed.firebaseapp.com/",
     id: 1,
+  },
+  {
+    title: "Booking Portal",
+    description:
+      "Portal for booking hotel rooms and services, with a simple and intuitive interface",
+    image: "/images/2.png",
+    tags: ["Angular 11", "Angular Material", "Firebase"],
+    source: "https://github.com/nahuegallinoti/portal-reservas",
+    visit: "https://portal-reservas.web.app/",
+    id: 2,
   },
   {
     title: "ChatApp",
@@ -26,7 +36,7 @@ export const projects = [
     tags: ["React", "Socket.io", "Node.js"],
     source: "https://github.com/nahuegallinoti/chatApp",
     visit: "https://react-socketio-express-chat.herokuapp.com/",
-    id: 2,
+    id: 3,
   },
   {
     title: "Portfolio",
@@ -35,7 +45,7 @@ export const projects = [
     tags: ["Next.js"],
     source: "https://github.com/nahuegallinoti/portfolio",
     visit: "https://portfolio-nahuel.herokuapp.com/",
-    id: 3,
+    id: 4,
   },
 ];
 
