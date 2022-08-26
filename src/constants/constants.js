@@ -43,12 +43,20 @@ export const projects = [
     id: 4,
   },
   {
+    title: "Posts App",
+    description: "App to make posts",
+    tags: ["React", "Node.js", "Express", "TailwindCss", ""],
+    source: "https://github.com/nahuegallinoti/MERN-stack-posts",
+    visit: "https://mern-stack-nagu.herokuapp.com/",
+    id: 5,
+  },
+  {
     title: "Portfolio",
     description: "Personal portfolio website",
     tags: ["Next.js"],
     source: "https://github.com/nahuegallinoti/portfolio",
     visit: "https://portfolio-nahuel.herokuapp.com/",
-    id: 5,
+    id: 6,
   },
 ];
 

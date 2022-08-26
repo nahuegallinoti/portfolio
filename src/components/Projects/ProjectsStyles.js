@@ -5,7 +5,7 @@ export const GridContainer = styled.section`
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   padding: 3rem;
   column-gap: 1rem;
-  row-gap: 2rem;
+  row-gap: 5rem;
   align-items: stretch;
   @media ${(props) => props.theme.breakpoints.sm} {
     display: flex;
@@ -19,7 +19,7 @@ export const GridContainer = styled.section`
 
 export const BlogCard = styled.div`
   margin: 0 auto;
-  margin-top: 2rem;
+  margin-bottom: 2rem;
   display: grid;
   border-radius: 10px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
@@ -27,6 +27,7 @@ export const BlogCard = styled.div`
   width: 400px;
   cursor: pointer;
   grid-template-rows: 0.3fr 0.2fr 0.3fr 0.2fr;
+  background-color: rgba(60, 58, 68, 0.2);
 
   &:hover {
     animation: rotation 1s ease 0s normal forwards;

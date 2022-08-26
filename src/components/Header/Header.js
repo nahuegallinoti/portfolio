@@ -45,6 +45,11 @@ const Header = () => (
           <NavLink>Contact</NavLink>
         </Link>
       </li>
+      <li>
+        <Link href="/projects/my-projects">
+          <NavLink>Posts</NavLink>
+        </Link>
+      </li>
     </Div>
     <SocialDiv>
       <li>
