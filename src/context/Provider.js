@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Context from "./Context";
 import {
   projects as currentProjects,
@@ -6,8 +6,13 @@ import {
 } from "../constants/constants";
 
 const Provider = ({ children }) => {
-  const [projects, setProjects] = useState(currentProjects);
-  const [timeLine, setTimeLine] = useState(timeline);
+  const [projects, setProjects] = useState([]);
+  const [timeLine, setTimeLine] = useState([]);
+
+  useEffect(() => {
+    setProjects(currentProjects);
+    setTimeLine(timeline);
+  }, []);
 
   return (
     <Context.Provider value={{ projects, setProjects, timeLine, setTimeLine }}>
