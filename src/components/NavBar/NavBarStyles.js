@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const Container = styled.nav`
   display: grid;
   grid-template-columns: 1fr 5fr 1fr;
   background: ${(props) => props.theme.colors.navBarBackground1};

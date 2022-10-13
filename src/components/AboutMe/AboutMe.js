@@ -22,9 +22,9 @@ function Timeline() {
       <SectionTitle mb="3rem" mt="3rem" main>
         About Me
       </SectionTitle>
-      <SectionDivider mb="3rem" />
+      <SectionDivider mb="5rem" />
       <SectionText maxWidth="auto">
-        I'm a fullstack web developer, specialiced in backend development and a
+        I'm a fullstack web developer, specialiced in backend development and with a
         further passion for blockchain technologies. Also I've experience as QA
         Functional and QA Leader.
       </SectionText>

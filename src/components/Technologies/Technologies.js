@@ -19,9 +19,9 @@ const Technologies = () => (
     <SectionTitle mb="3rem" mt="3rem" main>
       Technologies
     </SectionTitle>
-    <SectionDivider mb="3rem" />
+    <SectionDivider mb="5rem" />
     <SectionText maxWidth="auto">
-      I've worked with a range a technologies and frameworks, including:
+      I've worked with a range of technologies and frameworks, including:
     </SectionText>
     <List>
       <ListItem>

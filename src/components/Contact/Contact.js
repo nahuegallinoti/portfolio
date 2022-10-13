@@ -40,7 +40,7 @@ const Contact = () => {
       <SectionTitle mb="3rem" mt="3rem" main>
         Contact
       </SectionTitle>
-      <SectionDivider mb="3rem" />
+      <SectionDivider mb="5rem" />
       <SectionText color="#fd5959">
         If you wish contact me, please send an email
       </SectionText>

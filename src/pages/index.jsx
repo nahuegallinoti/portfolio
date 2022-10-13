@@ -17,9 +17,9 @@ const Home = () => {
       </Section>
       <Provider>
         <AboutMe />
+        <Technologies />
         <Projects />
       </Provider>
-      <Technologies />
       <Contact />
     </Layout>
   );
